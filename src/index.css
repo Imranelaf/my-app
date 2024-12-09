@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Heavitas', sans-serif;
+  width: 100dvw;
+  overflow-x: hidden;
+  background-color: #dfdff0;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Heavitas';
+    src: url("/fonts/Heavitas.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Helvetica-Bold';
+    src: url('/fonts/Helvetica-Bold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Helvetica-BoldOblique';
+    src: url('/fonts/Helvetica-BoldOblique.ttf') format('truetype');
+  }
+}

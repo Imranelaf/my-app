@@ -1,11 +1,13 @@
 import './App.css'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
     <>
-      <div className="font-Heavitas text-blue-500 text-2xl">Hello</div>
-
+    <div className='relative w-screen h-dvh  bg-green-50 overflow-x-hidden'>
+      <Hero />
+    </div>
 
 
     </>

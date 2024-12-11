@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <div className='relative w-screen h-dvh  bg-green-50 overflow-x-hidden'>
+    <div className='relative w-screen h-dvh overflow-x-hidden'>
       <Hero />
     </div>
 

@@ -7,7 +7,7 @@ body {
   font-family: 'Heavitas', sans-serif;
   width: 100dvw;
   overflow-x: hidden;
-  background-color: #dfdff0;
+  background-color: #edf0df;
 }
 
 @layer base {
@@ -30,6 +30,7 @@ body {
     font-family: 'Helvetica-BoldOblique';
     src: url('/fonts/Helvetica-BoldOblique.ttf') format('truetype');
   }
+  
 }
 
 
